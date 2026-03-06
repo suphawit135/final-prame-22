@@ -1,0 +1,18 @@
+@BASE_URL = http://localhost:3000
+
+### get usser
+GET {{BASE_URL}}/users/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1MSIsImlhdCI6MTc3Mjc4NTcyOCwiZXhwIjoxNzcyODcyMTI4fQ.K0anEp9Ed1D8aZfrjMZJGitjaKtKQzXEVSncNZfaiag
+
+
+### put user
+PUT  {{BASE_URL}}/users/me 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwidXNlcm5hbWUiOiJ1MSIsImlhdCI6MTc3Mjc4NTcyOCwiZXhwIjoxNzcyODcyMTI4fQ.K0anEp9Ed1D8aZfrjMZJGitjaKtKQzXEVSncNZfaiag
+
+{ 
+  "id":"2",
+  "username": "string",
+  "password": "1234"
+}

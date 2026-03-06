@@ -1,0 +1,19 @@
+@BASE_URL = http://localhost:3000
+
+### get doctor
+GET {{BASE_URL}}/doctors/me
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJkMSIsInNwZWNpYWxpemF0aW9uIjoidGVzdCIsImlhdCI6MTc3Mjc4NTY5OSwiZXhwIjoxNzcyODcyMDk5fQ.PMgaIKFl4PC9baV4JwA4DS7LNF_W3IpF3YP7ugJOd9U
+
+
+### put doctor
+PUT  {{BASE_URL}}/doctors/me 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJkMSIsInNwZWNpYWxpemF0aW9uIjoidGVzdCIsImlhdCI6MTc3Mjc4NTY5OSwiZXhwIjoxNzcyODcyMDk5fQ.PMgaIKFl4PC9baV4JwA4DS7LNF_W3IpF3YP7ugJOd9U
+
+{
+  "id":"1",
+  "username": "b",
+  "password": "12345",
+  "specialization": "test2"
+}

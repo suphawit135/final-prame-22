@@ -1,0 +1,5 @@
+@BASE_URL = http://localhost:3000
+
+###auth
+
+{{BASE_URL}}/doctors

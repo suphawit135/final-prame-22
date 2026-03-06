@@ -1,0 +1,35 @@
+@BASE_URL = http://localhost:3000
+
+###doctor register
+POST {{BASE_URL}}/auth/register/doctor
+Content-Type: application/json
+
+{
+  "username": "d1",
+  "password": "1234",
+  "specialization": "test"
+}
+###user register
+POST {{BASE_URL}}/auth/register/user
+Content-Type:  application/json
+
+{
+  "username": "u1",
+  "password": "1234"
+}
+###doctor login
+POST {{BASE_URL}}/auth/login/doctor
+Content-Type:  application/json
+
+{
+  "username": "d1",
+  "password": "1234"
+}
+###user login
+POST {{BASE_URL}}/auth/login/user
+Content-Type: application/json
+
+{
+  "username": "u1",
+  "password": "1234"
+}
